@@ -15,7 +15,12 @@ export default async function Home() {
             <h1 className="mr-3 text-5xl font-semibold">
               ChatPDF using OpenAI
             </h1>
-            <UserButton afterSignOutUrl="/" />
+            <div className="flex flex-col gap-1 justify-center items-center bg-white p-2 rounded-xl">
+              <UserButton afterSignOutUrl="/" />
+              <span className="text-[0.65rem] text-slate-400 font-semibold p-1 border-2 border-dashed rounded-xl bg-gray-50">
+                PeDoFiLe user
+              </span>
+            </div>
           </div>
 
           <div className="flex mt-2">
@@ -23,8 +28,8 @@ export default async function Home() {
           </div>
 
           <p className="max-w-xl mt-1 text-lg text-slate-800">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-            blanditiis, consequuntur earum suscipit accusamus impedit vitae
+            Lorem ipsum imong mama dolor sit amet consectetur adipisicing elit.
+            Ut blanditiis, consequuntur earum suscipit accusamus impedit vitae
           </p>
 
           <div className="w-full mt-4">

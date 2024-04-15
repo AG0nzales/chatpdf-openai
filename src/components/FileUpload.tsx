@@ -21,7 +21,7 @@ const FileUpload = () => {
       >
         <input {...getInputProps()} />
         <Inbox className="w-10 h-10 text-blue-500" />
-        <p className="mt-2 text-sm text-slate-400"> Drop PDF here</p>
+        <p className="mt-2 text-sm text-slate-400"> Drop PeDoFiLe here</p>
       </div>
     </div>
   );

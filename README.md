@@ -1,7 +1,5 @@
-## Mahiwagang ReadME
+# Mahiwagang ReadME
 
-Nothing here yet LMAO
+#### ~Sampol~ ~UI~
 
-```bash
-npm run dev
-```
+![](public/img/image.png)
